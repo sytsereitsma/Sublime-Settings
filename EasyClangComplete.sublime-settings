@@ -1,0 +1,11 @@
+{
+  "common_flags" : [
+    // some example includes
+    "-IC:/Program Files/LLVM/include",
+    "-IC:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/include"
+  ],
+  // C specific flags. Prepend common_flags for C files.
+  "c_flags" : [ "-std=c14" ],
+  // C++ specific flags. Prepend common_flags for C++ files.
+  "cpp_flags" : [ "-std=c++14" ],
+}
