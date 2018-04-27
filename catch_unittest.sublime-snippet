@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+#include "catch.hpp"
+#include "${1:ClassToTest}.h"
+
+using namespace Catch::Matchers;
+
+TEST_CASE("${1:ClassToTest} tester", "[base]" ) {
+    SECTION("Test ${1:ClassToTest}") {
+    	REQUIRE (false);
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>catch</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
