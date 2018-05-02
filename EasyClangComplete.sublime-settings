@@ -1,6 +1,7 @@
 {
   "verbose" : false,
   "common_flags" : [
+    "-Wall",
     // some example includes
     "-IC:/Program Files/LLVM/include",
     "-IC:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/include"
