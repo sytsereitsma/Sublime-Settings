@@ -1,12 +1,14 @@
 {
   "verbose" : false,
   "common_flags" : [
+    "-pedantic",
     "-Wall",
     "-I/usr/include/c++/5.4.0",
     "-I/usr/include",
     "-I/usr/lib/clang/$clang_version/include",
     "-IC:/Program Files/LLVM/include",
-    "-IC:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/include"
+    "-IC:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/include",
+    "-D_CRT_SECURE_NO_WARNINGS"
   ],
   // C specific flags. Prepend common_flags for C files.
   "c_flags" : [ "-std=c14" ],
