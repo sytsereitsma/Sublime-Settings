@@ -14,6 +14,7 @@
 		"Package Control",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-cppcheck"
+		"SublimeLinter-cppcheck",
+		"UnitTesting"
 	]
 }
