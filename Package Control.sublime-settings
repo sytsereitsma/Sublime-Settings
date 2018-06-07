@@ -10,10 +10,16 @@
 		"AutoFileName",
 		"EasyClangComplete",
 		"Git",
+		"Gradle_Language",
 		"HexViewer",
+		"Include Autocomplete",
+		"Interactive Data Language (IDL)",
 		"Package Control",
+		"PowerShell",
+		"Robot Framework Assistant",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-cppcheck"
+		"SublimeLinter-cppcheck",
+		"VHDL"
 	]
 }

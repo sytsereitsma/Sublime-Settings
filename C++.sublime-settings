@@ -1,4 +1,8 @@
-// These settings override both User and Default settings for the C++ syntax
 {
-    "translate_tabs_to_spaces": true
+	"extensions":
+	[
+		"h",
+		"tcc"
+	],
+	"translate_tabs_to_spaces": true
 }
