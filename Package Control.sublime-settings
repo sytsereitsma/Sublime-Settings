@@ -9,6 +9,7 @@
 		"Anaconda",
 		"AutoFileName",
 		"EasyClangComplete",
+		"GenerateUUID",
 		"Git",
 		"Gradle_Language",
 		"HexViewer",
@@ -16,11 +17,13 @@
 		"Interactive Data Language (IDL)",
 		"Package Control",
 		"PowerShell",
-		"Robot Framework Assistant",
+		"RobotFrameworkAssistant",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-cppcheck",
+		"Swap Selections",
+		"UnitTesting",
 		"VHDL",
-		"UnitTesting"
+		"VHDL Mode"
 	]
 }

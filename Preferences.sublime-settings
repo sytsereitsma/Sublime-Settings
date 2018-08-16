@@ -1,8 +1,7 @@
 {
-	"font_size": 11,
+	"font_size": 14,
 	"ignored_packages":
 	[
-		"Robot Framework Assistant",
 		"Uncrustify",
 		"VHDL",
 		"Vintage"
