@@ -12,5 +12,10 @@
 
         	"python_interpreter": "tcp://my_remote.machine.com:19360"
     */
-    "python_interpreter": "C:/Python34/python.exe"
+    "python_interpreter": "C:/Python34/python.exe",
+
+    // Maximum line length for pep8
+    "pep8_max_line_length": 100,
+    "test_command": "C:/Python34/Scripts/nosetests.exe"
+
 }
