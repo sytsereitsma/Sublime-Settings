@@ -21,9 +21,10 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-cppcheck",
+		"SublimeLinter-pylint",
 		"Swap Selections",
-		"UnitTesting",
 		"Switch File Deluxe",
+		"UnitTesting",
 		"VHDL",
 		"VHDL Mode"
 	]

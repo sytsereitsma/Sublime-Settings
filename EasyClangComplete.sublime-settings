@@ -10,6 +10,12 @@
     "-IC:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.11.25503/include",
     "-D_CRT_SECURE_NO_WARNINGS"
   ],
+  "lang_flags": {
+    "C": ["-std=c14"],
+    "CPP": ["-std=c++14"],
+    "OBJECTIVE_C": ["-std=c14"],
+    "OBJECTIVE_CPP": ["-std=c++14"],
+  },
   // C specific flags. Prepend common_flags for C files.
   "c_flags" : [ "-std=c14" ],
   // C++ specific flags. Prepend common_flags for C++ files.
