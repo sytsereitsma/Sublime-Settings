@@ -11,13 +11,13 @@
     "-D_CRT_SECURE_NO_WARNINGS"
   ],
   "lang_flags": {
-    "C": ["-std=c14"],
-    "CPP": ["-std=c++14"],
-    "OBJECTIVE_C": ["-std=c14"],
-    "OBJECTIVE_CPP": ["-std=c++14"],
+    "C": ["-std=c17"],
+    "CPP": ["-std=c++17"],
+    "OBJECTIVE_C": ["-std=c17"],
+    "OBJECTIVE_CPP": ["-std=c++17"],
   },
   // C specific flags. Prepend common_flags for C files.
-  "c_flags" : [ "-std=c14" ],
+  "c_flags" : [ "-std=c17" ],
   // C++ specific flags. Prepend common_flags for C++ files.
-  "cpp_flags" : [ "-std=c++14" ]  
+  "cpp_flags" : [ "-std=c++17" ]  
 }

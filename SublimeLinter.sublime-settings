@@ -5,15 +5,24 @@
 	"paths": {
         "linux": [],
         "osx": [],
-        "windows": ["C:/Program Files/Cppcheck"]
+        "windows": [
+            "C:/Program Files/Cppcheck",
+        ]
     },
 	"linters": {
+        "pylint": {
+            "executable": "C:\\Users\\sreitsma\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\pylint.exe",
+            "verbose": true
+        },
 		"cppcheck": {
             "disable": true,
          },
-        "cppclean": {
+         "cppclean": {
+            "args": ["--verbose", "-q"]
+         },
+        "xcppclean": {
             "disable": true,
-            "executable": ["py", "-3", "C:/Python36/Scripts/cppclean",
+            "executable": ["py", "-3", "C:/Python37/Scripts/cppclean",
                 "-ILibs/AiconProtocol/src",
                 "-ILibs/AnalogIOProcessing/src",
                 "-ILibs/AngelScript/src",
